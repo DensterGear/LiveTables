@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\LiveTables.Core\LiveTables.Core.fsproj" />
+      <ProjectReference Include="..\LiveTables.Infrastructure\LiveTables.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
